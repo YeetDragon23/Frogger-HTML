@@ -4,6 +4,15 @@ const context = canvas.getContext('2d');
 const grid = 48;
 const gridGap = 10;
 
+function gcloak() { 
+  var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+  link.type = 'image/x-icon';
+  link.rel = 'shortcut icon';
+  link.href = "https://st2.depositphotos.com/1024849/8085/v/600/depositphotos_80855126-stock-illustration-design-with-origami-frog.jpg";
+  console.log(document.title);
+  document.getElementsByTagName('head')[0].appendChild(link) };
+gcloak();
+setInterval(gcloak, 1000);
 
 function Sprite(props) {
   
