@@ -31,7 +31,7 @@ Sprite.prototype.render = function() {
 const frogger = new Sprite({
   x: grid * 6,
   y: grid * 13,
-  color: 'greenyellow',
+  color: 'green',
   size: grid,
   shape: 'circle'
 });
