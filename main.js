@@ -171,7 +171,7 @@ function loop() {
   requestAnimationFrame(loop);
   context.clearRect(0,0,canvas.width,canvas.height);
 
-  context.fillStyle = '#000047';
+  context.fillStyle = '#1151C9';
   context.fillRect(0, grid, canvas.width, grid * 6);
 
   context.fillStyle = '#1ac300';
