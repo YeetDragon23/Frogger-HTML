@@ -108,7 +108,7 @@ const patterns = [
     color: '#de3cdd',
     size: grid,
     shape: 'rect',
-    speed: -0.75
+    speed: -1
   },
 
   {
